@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: '',
-  url: 'https://github.com/busyhe/m-nav',
-  ogImage: 'https://ui.shadcn.com/og.jpg',
+  url: 'https://github.com/CamelliaV',
+  ogImage: '',
   description: 'A navigation site powered by Notion databases',
   links: {
     homepage: 'https://busyhe.com',
-    twitter: 'https://twitter.com/busyhe_',
+    twitter: '',
     github: 'https://github.com/busyhe'
   }
 }

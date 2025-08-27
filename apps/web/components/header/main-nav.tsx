@@ -13,7 +13,7 @@ export function MainNav({ title }: { title?: string }) {
 
   return (
     <div className='flex'>
-      <Link href='/' className='mr-4 flex items-center gap-2 lg:mr-6'>
+      <Link href='https://camelliav.netlify.app/' className='mr-4 flex items-center gap-2 lg:mr-6'>
         <Logo className='size-6 rounded-sm' />
         <span className='font-bold'>
           {displayTitle || <Skeleton className="h-6 w-24" />}

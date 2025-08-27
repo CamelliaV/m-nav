@@ -58,7 +58,8 @@ export function SiteContentClient({ siteData }: SiteContentClientProps) {
                 key={item.id}
                 title={item.title}
                 description={item.description || ''}
-                href={item.link}
+                // * if url does not exist, set it to default url, i.e. the website url
+                href={item.link || 'https://camelliav-navigation.vercel.app/'}
                 category={type}
               />
             ))}

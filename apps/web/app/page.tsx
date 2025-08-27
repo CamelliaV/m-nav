@@ -12,7 +12,7 @@ export default async function Page() {
   return (
     <SiteTitleProvider>
       <div data-wrapper='' className='border-grid flex flex-1 flex-col min-h-svh'>
-        <SiteHeader />
+        <SiteHeader title="Camelliav's nav"/>
         
         <main className='flex flex-1 flex-col container-wrapper p-4'>
           <Suspense fallback={<GridSkeleton />}>
